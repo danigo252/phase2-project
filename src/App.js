@@ -23,6 +23,7 @@ function App()  {
                     </ul>
                 </nav>
 
+
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/movies" exact component={MovieList} />
