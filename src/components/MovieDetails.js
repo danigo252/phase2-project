@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom' ;
 
 function MovieDetails()
 {
-    const { id } = useParams();
+    const { id } = useParams() ;
     const [movie, setMovie] = useState(null);
 
     useEffect(() => {
