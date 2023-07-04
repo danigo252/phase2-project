@@ -21,6 +21,7 @@ function App()  {
                             <Link to="/movies/new">Add Movie</Link>
                         </li>
                     </ul>
+
                 </nav>
 
 
