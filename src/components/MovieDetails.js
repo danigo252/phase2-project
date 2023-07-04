@@ -16,7 +16,7 @@ function MovieDetails()
         return <div>Loading...</div>;
     }
 
-    return (
+    return  (
         <div>
             <h1>Movie Details</h1>
             <h2>{movie.title}</h2>
