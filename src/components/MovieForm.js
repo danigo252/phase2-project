@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function MovieForm() {
-    const [title, setTitle] = useState('');
+    const [title, setTitle ] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
