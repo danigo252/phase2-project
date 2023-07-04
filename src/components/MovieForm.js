@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function MovieForm() {
+function MovieForm () {
     const [title, setTitle ] = useState('');
 
     const handleSubmit = (e) => {
