@@ -10,7 +10,7 @@ function MovieForm () {
             title: title
         };
 
-        const configObj = {
+        const configObj =  {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newMovie)
