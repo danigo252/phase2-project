@@ -5,7 +5,7 @@ import MovieList from './components/MovieList';
 import MovieDetails from './components/MovieDetails';
 import MovieForm from './components/MovieForm';
 
-function App() {
+function App()  {
     return (
         <Router>
             <div>
